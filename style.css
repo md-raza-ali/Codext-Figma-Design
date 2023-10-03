@@ -54,7 +54,7 @@ nav a {
   justify-content: space-around;
   align-items: center;
   height: calc(100vh - 80px);
-  background-color: #8ec5fc;
+  /* background-color: #8ec5fc; */
   /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e7e4e9 100%); */
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
@@ -162,10 +162,76 @@ nav a {
 .cards .arrow-png {
   width: 35px;
   padding-top: 20px;
+  cursor: pointer;
 }
 .cards h2 {
   padding-top: 10px;
 }
 .cards p {
   padding-top: 5px;
+}
+.price-sec {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+}
+.price-sec .price-heading h1 {
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+.price-sec .price-heading p {
+  text-align: center;
+  font-size: 1.4rem;
+  word-spacing: 4px;
+  padding-top: 10px;
+}
+.price-sec .price-heading img {
+  width: 60px;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+}
+.pricing-cards .pricing {
+  width: 20%;
+  background-color: #ffff;
+  padding: 20px;
+  margin: 50px 20px 10px 20px;
+  height: 330px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 1px 1px 19px -11px rgba(66, 68, 90, 0.5);
+}
+.pricing-cards .pricing h3 {
+  padding-top: 18px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+.pricing-cards .pricing h1 {
+  padding-top: 10px;
+
+  color: #11408a;
+}
+.pricing-cards .pricing h1 span {
+  font-weight: bold;
+}
+.pricing-cards .pricing p {
+  padding-top: 14px;
+  line-height: 25px;
+  opacity: 0.8;
+}
+.pricing-cards .pricing .btn {
+  background-color: #c9dcfa;
+  color: #11408a;
+  margin-top: 20px;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.pricing-cards .price-2 .btn {
+  background-color: #2657a4;
+  color: white;
 }
