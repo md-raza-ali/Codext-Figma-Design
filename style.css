@@ -229,6 +229,8 @@ nav a {
 .review-sec {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 80px);
 }
 .heading-rev {
   height: 20vh;
@@ -272,8 +274,59 @@ nav a {
   justify-content: space-evenly;
   height: 30%;
 }
-.map-rev img {
-  width: ;
+.news-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+.news-heading{
+  width: 100%;
+  text-align: center;
+}
+.news-cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.news {
+  border-radius: 8px;
+  background-color: white;
+  width: 30%;
+
+  margin: 0% 5% 2% 5%;
+}
+.news img {
+  width: 100%;
+}
+.news-cards .context {
+  padding: 20px;
+}
+.news-cards .context h4 {
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.news-cards .context h5 {
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.news-cards .context h2 {
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.news-cards .context p {
+  opacity: 0.8;
+  padding-bottom: 16px;
+}
+.news-cards .context .btn {
+  padding: 10px 25px;
+  border-radius: 5px;
+
+  background-color: #2657a4;
+  color: white;
 }
 /* @media screen and (max-width: 768px) {
   nav ul {
